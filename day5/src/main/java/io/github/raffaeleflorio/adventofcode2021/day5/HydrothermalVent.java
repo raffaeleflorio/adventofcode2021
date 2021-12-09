@@ -1,0 +1,16 @@
+package io.github.raffaeleflorio.adventofcode2021.day5;
+
+/**
+ * A hydrothermal vent
+ *
+ * @author Raffaele Florio (raffaeleflorio@protonmail.com)
+ */
+public interface HydrothermalVent {
+  /**
+   * Plots itself onto a diagram
+   *
+   * @param diagram The diagram
+   * @return The diagram
+   */
+  FrequencyDiagram<Point> plot(FrequencyDiagram<Point> diagram);
+}
